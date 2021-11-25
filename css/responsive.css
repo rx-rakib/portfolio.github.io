@@ -1,0 +1,78 @@
+
+/*
+		Bootstrap Media Query
+	============================
+	Author : Rakibul Islam (rakib)
+	Mobile : +880-1723-270948
+	E-mail : rakib.kst7@gmail.com
+	Web : http://rakib7.uk.ht
+*/
+
+
+
+
+/* This Css For Small Mobile */
+
+@media (max-width: 767px) {
+
+a#simple-menu{display:block;}
+.slicknav_menu{display:none;}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+
+}
+
+
+
+/* This Css For Tablet */
+
+@media (min-width: 768px) {
+
+a#simple-menu{display:none;}
+.slicknav_menu{display:none;}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+
+}
+
+
+
+/* This Css For Medium Devices */
+
+@media (min-width: 992px) {
+
+a#simple-menu{display:none;}
+.slicknav_menu{display:none;}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+
+}
+
+
+
+/* This Css For Large Devices */
+
+@media (min-width: 1200px) {
+
+a#simple-menu{display:none;}
+.slicknav_menu{display:none;}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+
+}

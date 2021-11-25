@@ -1,0 +1,91 @@
+/*-------------------------------------------------
+                ==== About Author ====
+        ==== Author :- Rakibul Islam (rakib)
+        ==== Mobile:- +880-1723-270948
+        ==== mail:- rakib.kst7@gmail.com
+        ==== Web:- https://www.rakib7.uk.ht
+---------------------------------------------------*/
+
+/*-------//Base Css-------*/
+
+body{
+ background: #599fd9;
+ background-image: linear-gradient( 135.9deg, rgba(109,25,252,1) 16.4%, rgba(125,31,161,65.1%));
+ min-height: 100vh;
+ overflow-x: hidden;
+}
+.vertical-nav{
+ min-width: 17rem;
+ width: 17rem;
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ left: 0;
+ box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+ transition: all 0.4s;
+}
+.sidebar-button{
+ background: #fff;
+ border: 1px solid #eee;
+ padding: 5px 10px;
+ text-align: center;
+ font-size: 16px;
+}
+.sidebar-button:focus{
+ outline: 1px solid #eee;
+}
+.lead{
+ font-size: 16px;
+ font-weight: normal;
+ text-align: justify;
+}
+.page-content{
+ width: calc(100% - 17rem);
+ margin-left: 17rem;
+ transition: all 0.4s;
+}
+#sidebar.active{
+ margin-left: -17rem;
+}
+#content.active{
+ width: 100%;
+ margin: 0;
+}
+.separator{
+ margin: 3rem 0;
+ border-bottom: 1px dashed #fff;
+}
+.text-uppercase{
+ letter-spacing: 0.1em;
+}
+.text-gray{
+ color: #aaa;
+}
+.nav-link{
+ text-transform: capitalize;        
+}
+.nav-link:hover{
+ background: #f3f2f2;
+}
+.text-primary{
+ color: #7579e7 !important;
+}
+
+@media (max-width: 786px){
+        #sidebar{
+                margin-left: -17rem;
+        }
+        #sidebar.active{
+                margin-left: 0;
+        }
+        #content{
+                width: 100%;
+                margin: 0;
+        }
+        #content.active{
+                margin-left: 17rem;
+                width: calc(100% - 17rem);
+        }
+
+
+}
